@@ -12,7 +12,11 @@ import java.io.Serializable;
  * @author MyPC
  */
 public class Student implements Serializable{
-    private String enrolID;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String enrolID;
     private String firstName;
     private String lastName;
     private int age;
